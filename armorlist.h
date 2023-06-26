@@ -67,7 +67,7 @@ void ArmorList::armorMenu(int &totalGem,int &totalArm){
 	cout << "\t\t\t\t" << "|8.  Beast Hide Armor    | " << setw(5) << "    86  |" << setw(5) << "  06  |" << endl;	
 	cout << "\t\t\t\t" << "|9.  Celestial Aegis     | " << setw(5) << "    69  |" << setw(5) << "  05  |" << endl;					
 	cout << "\t\t\t\t" << "|10. Guardian Shield     | " << setw(5) << "    55  |" << setw(5) << "  03  |" << endl;
-	cout << "\t\t\t\t" << "|0. Exit the menu        |         |      |"  << endl;
+	cout << "\t\t\t\t" << "|0.  Exit the menu       |         |      |"  << endl;
 	cout << "\t\t\t\t" << "|________________________|_________|______|"  << endl;
 	cout << endl << endl;
 	
@@ -80,7 +80,7 @@ void ArmorList::armorMenu(int &totalGem,int &totalArm){
 
     ArmorList list;
 
-    cout << "Please enter the armor and supplement that you would like to purchase:" << endl;
+    cout << "Please enter the armor that you would like to purchase:" << endl;
 	bool armor = true;
     do {
 		if(armor){
@@ -191,8 +191,8 @@ void ArmorList::armorMenu(int &totalGem,int &totalArm){
         }
   
 
-        if (choice == 2) {
-			//armor = false;
+           if (choice == 2) {
+			//weapon = false;
 			if(isEmpty()){
                 cout << "You haven buy anything yet...." << endl;
                 armor = true;
@@ -200,55 +200,48 @@ void ArmorList::armorMenu(int &totalGem,int &totalArm){
 			else{
 				  do {
 						
-	                	if(!isEmpty()){
+						if(!isEmpty()){
 							displayArmor();
-		                	cout << "The list above shows the armors you have just purchased." << endl;
+		                	cout << "The list above shows the weapons you have just purchased." << endl;
 		                	cout << "Select the item you want to sell: ";
 		                	selection = getInput(1,indexItem);
-	
-			                	list.deleteArmor(selection, returnGem, returnArmor);
+		                	
+			                	deleteArmor(selection, returnGem, returnArmor);
 			                	indexItem--;
 			                	totalGem += returnGem;
 			                	totalArmor -= returnArmor;
 			                	
-								// Update the index of remaining armors
+								// Update the index of remaining weapons
 		                		for (int i = selection; i <= indexItem; i++) {
 		                    		updateIndex(i, i - 1);
 		                		}
-		                		
-		                		cout << "Do you want to sell another armor? (1: Yes, 0: No): ";
-		                		status = getInput(0,1);
+		        
+		                			cout << "Do you want to sell another armor? (1: Yes, 0: No): ";
+		                			status = getInput(0,1);
+							
 						}
 						else{
 							cout << "You have sell all the armor that you have bought." << endl;
+							
 							status = 0;
 						}
 	
-
-
-
-					
-
-	                
             	} while (status != 0);
             		do{
-					
             	    	cout << "Do you still want to continue?" << endl;
-        				cout << "(1: Yes,  0: Fight the boss): ";
+        				cout << "(1: Yes,  0: Fight Boss): ";
         				choice = getInput(0,1);
 						armor = true;
         		
         				//The loop cannot be gone through
 					    if (choice > 1 ) {
 					        cout << "Please enter valid input.";
-					       choice = getInput(0,1);
+					        cin >> choice;
 						}
 					}while(choice > 1);
-						
-						
-					
 			}
       
+        
         }else if (choice == 3) {
             displayArmor();
 			    do{
@@ -352,9 +345,9 @@ void ArmorList::displayArmor(){
     		while (pointer != nullptr) {
         		// Print the folloewing pointed value
 				cout << "Weapon #" << pointer->index << endl;
-				cout << "Name of the weapon  :" << pointer->name << endl;
-    			cout << "Cost of the weapon  : " << pointer->gem << endl;
-    			cout << "Armor of the weapon: " << pointer->armor << endl;
+				cout << "Name of the name  :" << pointer->name << endl;
+    			cout << "Cost of the name   : " << pointer->gem << endl;
+    			cout << "Armor of the name : " << pointer->armor << endl;
     			pointer = pointer->next;
     		}
             
