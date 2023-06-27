@@ -2,41 +2,47 @@
 This is the progression of our hackathon 2 project to create a text based game using C++ only
 Game Documentation
 
- Introduction
+## Description
+This game is a text-based adventure game where players embark on a quest to defeat a powerful boss. The player's goal is to gather weapons and armor by purchasing them with gems collected throughout the game. By strategically equipping weapons and armor, the player can increase their attack and defense stats, enhancing their chances of defeating the boss.
 
-The Adventure Game is a fun text-based game that lets players engage with the game. Players in this game move through many phases, make decisions, and engage in combat. The gameplay is centred on a compelling narrative that gives players a range of choices and unforeseen outcomes. The adventure comes to a thrilling conclusion with a last boss encounter in the game. Players have the chance to gather gems and pace throughout the game, which help to improve their skills and advancement. To fight the boss and completely complete the entire adventure is the game's main goal.
+## Features
+- Purchase weapons and armor using collected gems.
+- Sell weapons and armor to regain gems.
+- View the list of purchased weapons and armor.
+- Manage inventory by dynamically updating linked lists for weapons and armor.
+- Use stacks to save and restore the game state.
+- Explore a text-based world and engage in battles.
 
-Table of Contents
+## How to Play
+1. Start the game and enter the main menu.
+2. From the main menu, choose options to purchase weapons and armor, sell weapons, view purchased items, or exit the game.
+3. In the purchase menu, select a weapon or armor to buy using the corresponding index.
+4. Confirm your selection and check your current attack and gem status.
+5. Optionally, sell purchased weapons to regain gems and adjust your attack.
+6. Explore the game world and engage in battles to defeat the boss.
 
-1. Game Overview
-    - Game Concept
-    - Target Audience
-2. Installation and Requirements
-    - Requirements
-    - Installation Instructions
-3. Gameplay
-    - Controls
-    - Progression
-    - Phases and Decisions
-    - Boss Battle
-    - Difficulty Levels
-4. Mechanics and Features
-    - Generating Random Damage
-    - Boss Skills and Dodge Mechanism
-    - Healing Potions and Critical Hits
-    - Game Save and Continue
-5. Additional Components
-    - Linked List
-    - Stack
-    - Weapon List
-    - Armor List
-6. Game Flow
-7. Code Explanation
-    - Function Overview
-    - Main Function
-8. Future Enhancements
-9. Conclusion
-10. References
+## Object-Oriented Concepts
+The game utilizes several object-oriented concepts, including encapsulation, abstraction, and modularity. The game logic is encapsulated within classes, such as `WeaponList`, `ArmorList`, and `Stack`, which provide data and methods for managing weapons, armor, and game state. Abstraction is achieved by hiding implementation details and providing high-level interfaces for interacting with the game. Modularity is maintained by separating different functionalities into different classes, promoting code organization and reusability.
+
+## Linked Lists, Stacks, and Queues
+Linked lists play a crucial role in managing the player's inventory of weapons and armor. The `WeaponList` and `ArmorList` classes use linked lists to dynamically store and manage the purchased items. Linked lists allow for efficient insertion, deletion, and traversal of items in the inventory.
+
+Stacks are utilized to save and restore the game state. The `Stack` class enables the player to save their progress and return to a previous state. It stores information about the level, gems, and pace, allowing the player to undo actions and explore different strategies.
+
+## Screenshots and Demo Video
+[Insert screenshots of the game here]
+
+[Insert link to the game demo video here]
+
+## Code Files
+- `WeaponList.h` and `WeaponList.cpp`: Implement the `WeaponList` class for managing weapons.
+- `ArmorList.h` and `ArmorList.cpp`: Implement the `ArmorList` class for managing armor.
+- `Stack.h` and `Stack.cpp`: Implement the `Stack` class for managing the game state.
+- [Add other code files here]
+
+Note: The code provided can be compiled using any IDE, GCC, or G++. Ensure all the necessary files are included during compilation.
+
+## Additional Information from Original Readme
 
 1. Game Overview
 
@@ -46,13 +52,16 @@ Players in the text-based adventure game set out on an adventure by moving throu
 Target Audience
 
 Players who like text-based adventure games with a decision-making, strategy, and warfare emphasis will appreciate this game. Players that value compelling tales, character development, and demanding gameplay make up the target audience.
+
 2. Installation and Requirements
 
 Requirements
 
+
+
 - C++ Compiler
 - Standard C++ Library
-- Operating System: Windows, macOS, or Linux
+- Operating System: Windows
 
 Installation Instructions
 
@@ -77,14 +86,12 @@ Players are given three options for each phase. Gem and pace rewards for decisio
 
 Boss Battle
 
-Players begin the boss battle after finishing each phase. The player and the boss engage in turn-based combat during the boss battle. Players can conduct actions like slashing, pounding, stabbing, or employing special skills. They can also choose attack styles. The boss has a variety of skills to assault the player as well. The fight goes on until the boss or the player's health is completely depleted. Players have the opportunity to use their acquired gems to buy weapons and armour before the boss encounter to help them in battle.
+Players begin the boss battle after finishing all phases. The player and the boss engage in turn-based combat during the boss battle. Players can conduct actions like slashing, pounding, stabbing, or employing special skills. They can also choose attack styles. The boss has a variety of skills to assault the player as well. The fight goes on until the boss or the player's health is completely depleted. Players have the opportunity to use their acquired gems to buy weapons and armour before the boss encounter to help them in battle.
 Difficulty Levels
 
-Three degrees of difficulty are available in the game: Easy, Medium, and Hard. The boss battle is more harder due to the difficulty setting's effect on the boss' health and dodge rate. At the beginning of the game, players can choose the desired level of difficulty..
+Three degrees of difficulty are available in the game: Easy, Medium, and Hard. The boss battle is more harder due to the difficulty setting's effect on the boss' health and dodge rate. At the beginning of the game, players can choose the desired level of difficulty.
 
 4. Mechanics and Features
-
-
 
 Generating Random Damage
 
@@ -95,14 +102,37 @@ The boss is capable of using a number of abilities, including Fireball, Thunders
 Healing Potions and Critical Hits
 
 In order to recover health during combat, players can use healing potions. The player is given the option to utilise a healing potion or not if they have any on hand. A potion's use will restore the player's health by a set amount. Another game mechanic is critical hits. Based on a preset critical hit chance, the 'isCriticalHit' function assesses if an attack is a critical hit. When a critical hit occurs, the attacking player or boss deals twice as much damage.
+
 Game Save and Continue
 
 Players can save their progress in the game and pick up where they left off by using the resume feature. The saved game states are managed using the 'Stack' data structure. The level, total number of gems, and overall pace are all restored when players decide to restart the game using the saved data that has been retrieved.
+
+PROGRESSION TRACKER
+The player can, at any point of the journey, choose to view the progression they made so far, this includes on which phase they are at right now, the rewards they have gained thus far and how many pace they have taken. This is to allow an easier decision making throughout the game.
+
+COHERENT STORYLINE
+ Each phase of the story has been thoroughly planned to ensure coherent storytelling throughout the game. Each decision you make will have a story relating it to the next phase so you can ensure to have a fine time reading through the stories we have prepared.
+
+ NEW GAME
+ The game also has  a new game feature, for when the player wishes to start fresh if they feel like they made a bad decision. The reasoning for not allowing the players to return back to specific phase is for balancing, so that the players are ever only given one chance to make their decision for immersion purpose. 
+
+GEARS
+The game also incorporated a gear system wherein the players are allowed to use their rewards to purchase weapons or armors to aid them in their final boss fight. Wise decisions must be made here as well as the amount of money you spend will determine if you can defeat the boss. 
+
+PROGRESSION TRACKER
+The player can, at any point of the journey, choose to view the progression they made so far, this includes on which phase they are at right now, the rewards they have gained thus far and how many pace they have taken. This is to allow an easier decision making throughout the game.
+
+
+
+
+
 5. Additional Components
 
 The Adventure game utilizes the following additional components:
 
-- Linked List: The `LinkedList` class manages the game's scenes (phases). It provides functions to append nodes representing each scene and display the current scene based on the player's progression.
+- Linked List: The `
+
+LinkedList` class manages the game's scenes (phases). It provides functions to append nodes representing each scene and display the current scene based on the player's progression.
 
 - Stack: The `Stack` class handles the saved game states. It allows pushing and popping of game state data, such as the level, total gems, and total pace. The stack data structure enables saving and restoring the game progress.
 
@@ -139,7 +169,7 @@ The Adventure game follows a specific flow to provide an immersive gaming experi
    - Players can save their game progress and exit the game at any time.
    - Saved game data is stored in a file and can be loaded to continue the game later.
 
- 7. Code Explanation
+7. Code Explanation
 
 Function Overview
 
@@ -169,7 +199,9 @@ Function Overview
 
 8. Future Enhancements
 
-Additional features and enhancements can be made to the adventure game, such as:
+Additional features and
+
+ enhancements can be made to the adventure game, such as:
 
 1. Extended Storyline: To create a richer and more immersive tale experience, new phases, scenes, and options will be added.
 
@@ -177,10 +209,13 @@ Additional features and enhancements can be made to the adventure game, such as:
 
 3. Using a more sophisticated fighting system with a variety of attack types, combinations, and special powers.
 
-4. Multiplayer option: A multiplayer option is now available, allowing players to take part in the journey alone or with friends.
+4. Multiplayer option: A multiplayer option , allowing players to take part in the journey alone or with friends.
 
-5. Ensure the classes of the project can be related to each other coherently. 
+5. Ensure the classes of the project can be related to each other coherently.
 
- 9. Conclusion
+
+
+9. Conclusion
 
 Players in the adventure game move through many phases, make decisions, and engage in tactical combat in an entertaining text-based gaming experience. The game provides players with an immersive adventure because to its decision-making features, story-driven gameplay, and difficult boss encounters.
+
