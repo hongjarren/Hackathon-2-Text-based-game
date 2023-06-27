@@ -51,7 +51,7 @@ int main() {
     int saveLevel, saveGem, savePace;
     gameFile.open("savefile.txt", ios::in);
     if (gameFile.fail()) {
-        cout << "Error in opening file #" << endl;
+        cout << "" << endl;
     } else {
         while (!gameFile.eof()) {
             gameFile >> saveLevel;
@@ -95,7 +95,7 @@ void startGame(ArmorList &armorList, WeaponList &attackList, int &totalGem, int 
 
     do {
         cout << "-------------------------" << endl;
-        cout << "Welcome to Adventure..." << endl;
+        cout << "Welcome to Adventure Time..." << endl;
         cout << "1. Start the game." << endl;
         cout << "2. Continue the game." << endl;
         cout << "3. Exit the game." << endl;
@@ -173,14 +173,14 @@ void startGame(ArmorList &armorList, WeaponList &attackList, int &totalGem, int 
 void loadStory(LinkedList &list){
 		string story, decision1, decision2, decision3;
 	    ifstream inputFile;   
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 9; i++) {
         string fileName = "scene";
         string fileIndex = to_string(i + 1);
         fileName = fileName + string(fileIndex);
         inputFile.open(fileName + ".txt");
 
         if (inputFile.fail()) {
-            cout << "Error in opening file #" << endl;
+            cout << " "<< endl;
         } else {
             if (!inputFile.eof()) {
                 getline(inputFile, story);
