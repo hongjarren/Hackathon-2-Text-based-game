@@ -122,6 +122,9 @@ The game also incorporated a gear system wherein the players are allowed to use 
 PROGRESSION TRACKER
 The player can, at any point of the journey, choose to view the progression they made so far, this includes on which phase they are at right now, the rewards they have gained thus far and how many pace they have taken. This is to allow an easier decision making throughout the game.
 
+INPUT VALIDATION
+An input validation has been implemented throughout the program to ensure only the intended keys are inputted to ensure the game runs smoothly
+
 
 
 
