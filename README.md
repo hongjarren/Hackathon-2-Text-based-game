@@ -34,7 +34,7 @@ Please get the screenshots of our game from the below link
 https://docs.google.com/document/d/1wJphnxcAXKVq0iIOzztL68cot7Te6oP6mIjg_DZNHFg/edit?usp=sharing
 
 Please find our video game demo from the below link
-[Insert link to the game demo video here]
+https://youtu.be/JozFO5nBlwI
 
 ## Code Files
 - `WeaponList.h` and `WeaponList.cpp`: Implement the `WeaponList` class for managing weapons.
