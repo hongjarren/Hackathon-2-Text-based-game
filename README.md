@@ -30,8 +30,10 @@ Linked lists play a crucial role in managing the player's inventory of weapons a
 Stacks are utilized to save and restore the game state. The `Stack` class enables the player to save their progress and return to a previous state. It stores information about the level, gems, and pace, allowing the player to undo actions and explore different strategies.
 
 ## Screenshots and Demo Video
-[Insert screenshots of the game here]
+Please get the screenshots of our game from the below link
+https://docs.google.com/document/d/1wJphnxcAXKVq0iIOzztL68cot7Te6oP6mIjg_DZNHFg/edit?usp=sharing
 
+Please find our video game demo from the below link
 [Insert link to the game demo video here]
 
 ## Code Files
