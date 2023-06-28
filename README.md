@@ -1,4 +1,9 @@
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/ef81f6da-b45c-4837-abcc-94db5c427607)# Hackathon-2-Text-based-game
+# Group 36
+NG CHEN YANG 164077
+HONG SOON CHUAN JARREN 163219
+BOK WEI HONG 163190
+
+# Hackathon-2-Text-based-game
 This is the progression of our hackathon 2 project to create a text based game using C++ only
 Game Documentation
 
