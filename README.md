@@ -1,4 +1,4 @@
-# Hackathon-2-Text-based-game
+![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/ef81f6da-b45c-4837-abcc-94db5c427607)# Hackathon-2-Text-based-game
 This is the progression of our hackathon 2 project to create a text based game using C++ only
 Game Documentation
 
@@ -32,26 +32,45 @@ Stacks are utilized to save and restore the game state. The `Stack` class enable
 ## Screenshots and Demo Video
 Please get the screenshots of our game from the below link
 https://docs.google.com/document/d/1wJphnxcAXKVq0iIOzztL68cot7Te6oP6mIjg_DZNHFg/edit?usp=sharing
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/09d3e2bc-8188-49cc-99ab-b2dc92eaacf1)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/93871f7f-ebc8-4568-b8ea-45544ce2e954)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/833dadba-8719-4a91-a5f9-a22f8a681820)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/a5a06b8d-9a4c-4e4e-9fc7-c72d5f2eeeb6)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/bceb7ee4-320a-4073-9384-6f65d8a9168b)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/55117844-20ec-4e1f-b213-1ddd8a6524fc)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/d4b92666-f9ac-4216-9e51-75dd9dff6b60)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/26cef126-7d9e-40b6-bc24-5e8909195468)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/4b90eea0-3d30-43a4-b8e3-1b4542c4ae4d)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/149a0085-83ff-4d2a-a23d-a4c71a2a2257)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/1c2de7de-14c5-4995-9124-e106ebadadd5)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/e7098914-ed5a-470f-8cd5-52d73573b30c)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/f5d0b462-752f-4909-b28c-084e44703e2b)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/b8cc2e7e-b905-44f1-97da-1f484556647b)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/9c23c285-8a5e-48a7-a30b-3d549f39059d)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/d173197e-0eea-4ecb-a902-31b6671da206)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/dde30d13-ce4b-4a8b-87c2-c44aca243bf8)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/94dae0ef-15a1-4158-b0bf-a159cca83f06)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/b0695cbe-89bd-4e43-b65c-ee2b7bcadb8b)
-![image](https://github.com/hongjarren/Hackathon-2-Text-based-game/assets/121543989/75be4b61-8434-4cb4-8787-df0881f78b98)
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123476642426277909/image.png?width=570&height=662)
+
+![image](https://cdn.discordapp.com/attachments/1030850353593335809/1123476682800631808/image.png)
+
+![image](https://cdn.discordapp.com/attachments/1030850353593335809/1123476858504232960/image.png)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123476885863669770/image.png?width=618&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123476910912065607/image.png?width=531&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123476932168790086/image.png?width=588&height=536)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123476985486778419/image.png?width=626&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477022275010601/image.png?width=511&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477045951864942/image.png?width=626&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477075328761926/image.png?width=495&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477096002502727/image.png?width=628&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477117796106320/image.png?width=567&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477143914033163/image.png?width=527&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477169008554004/image.png?width=567&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477188344283226/image.png?width=606&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477205918416926/image.png?width=707&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477232732610610/image.png?width=730&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477265330737172/image.png?width=490&height=661)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477286063198238/image.png?width=552&height=662)
+
+![image](https://media.discordapp.net/attachments/1030850353593335809/1123477310042017893/image.png?width=541&height=662)
 
 
 Please find our video game demo from the below link
