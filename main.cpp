@@ -334,7 +334,7 @@ void bossFight(int baseHealth, int baseAttack,int &playerHealth, int &playerDama
         // Check if the player defeated the boss
         if (currentBossHealth <= 0) {
           
-            cout <<"You have defeated the dragon, and as a reward for you,";
+            cout <<"You have defeated the wizard, and as a reward for you,";
 			cout <<"the wicked wizard finally lifted the curse on you and memories starts to flood back in. ";
 			cout <<"You were a novice adventurer back then, arrived in this mysterious area years ago alongside your sister. ";
 			cout <<"Guided by your own choices which are exactly the same choices that you took each step of the way now, ";
